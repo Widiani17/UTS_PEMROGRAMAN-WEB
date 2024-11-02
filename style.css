@@ -1,0 +1,54 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(132, 183, 215);
+}
+
+header{
+    background: #3049a5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin:0;
+}
+
+main{
+    padding:30px;
+}
+
+.hewan-Qurban{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.hewan{
+    background: rgb(108, 113, 187);
+    border-radius: 100px;
+    box-shadow: 0 2px 8px rgba(209, 196, 196, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align:center;
+    width: 200px;
+    height: 170px;
+}
+
+.hewan img{
+    width: 95%;
+    border-radius: 50px;
+}
+
+footer {
+    background:rgb(33, 95, 176);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    margin: 140px;
+    width: 75%
+}
